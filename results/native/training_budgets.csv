@@ -1,0 +1,201 @@
+run_id,config_file,system,model,noise,seed,total_parameter_count,adam_updates,lbfgs_outer_iterations,recorded_seconds
+ma_node_eco_noise00_seed123,native/configs/ma_node_eco_noise00.yaml,eco,MA-NODE,0.0,123,5192,16000,0,16297.553219795227
+ma_node_eco_noise00_seed2024,native/configs/ma_node_eco_noise00.yaml,eco,MA-NODE,0.0,2024,5192,16000,0,16864.420828819275
+ma_node_eco_noise00_seed3407,native/configs/ma_node_eco_noise00.yaml,eco,MA-NODE,0.0,3407,5192,16000,0,16165.997303724289
+ma_node_eco_noise00_seed42,native/configs/ma_node_eco_noise00.yaml,eco,MA-NODE,0.0,42,5192,16000,0,15347.572899580002
+ma_node_eco_noise00_seed7777,native/configs/ma_node_eco_noise00.yaml,eco,MA-NODE,0.0,7777,5192,16000,0,14882.929862260818
+ma_node_eco_noise01_seed123,native/configs/ma_node_eco_noise01.yaml,eco,MA-NODE,0.01,123,5192,16000,0,15090.679417610168
+ma_node_eco_noise01_seed2024,native/configs/ma_node_eco_noise01.yaml,eco,MA-NODE,0.01,2024,5192,16000,0,16456.167347192764
+ma_node_eco_noise01_seed3407,native/configs/ma_node_eco_noise01.yaml,eco,MA-NODE,0.01,3407,5192,16000,0,15379.359457492828
+ma_node_eco_noise01_seed42,native/configs/ma_node_eco_noise01.yaml,eco,MA-NODE,0.01,42,5192,16000,0,15467.499634742737
+ma_node_eco_noise01_seed7777,native/configs/ma_node_eco_noise01.yaml,eco,MA-NODE,0.01,7777,5192,16000,0,14901.160746335983
+ma_node_eco_noise06_seed123,native/configs/ma_node_eco_noise06.yaml,eco,MA-NODE,0.06,123,5192,16000,0,15009.712835550308
+ma_node_eco_noise06_seed2024,native/configs/ma_node_eco_noise06.yaml,eco,MA-NODE,0.06,2024,5192,16000,0,14910.780891895294
+ma_node_eco_noise06_seed3407,native/configs/ma_node_eco_noise06.yaml,eco,MA-NODE,0.06,3407,5192,16000,0,14910.13064789772
+ma_node_eco_noise06_seed42,native/configs/ma_node_eco_noise06.yaml,eco,MA-NODE,0.06,42,5192,16000,0,14932.354229927063
+ma_node_eco_noise06_seed7777,native/configs/ma_node_eco_noise06.yaml,eco,MA-NODE,0.06,7777,5192,16000,0,16333.420326948166
+ma_node_eco_noise10_seed123,native/configs/ma_node_eco_noise10.yaml,eco,MA-NODE,0.1,123,5192,16000,0,14852.737129688263
+ma_node_eco_noise10_seed2024,native/configs/ma_node_eco_noise10.yaml,eco,MA-NODE,0.1,2024,5192,16000,0,16431.698876857758
+ma_node_eco_noise10_seed3407,native/configs/ma_node_eco_noise10.yaml,eco,MA-NODE,0.1,3407,5192,16000,0,16885.229150295258
+ma_node_eco_noise10_seed42,native/configs/ma_node_eco_noise10.yaml,eco,MA-NODE,0.1,42,5192,16000,0,14791.792518615723
+ma_node_eco_noise10_seed7777,native/configs/ma_node_eco_noise10.yaml,eco,MA-NODE,0.1,7777,5192,16000,0,14882.160818815231
+mc_node_eco_noise00_seed123,native/configs/mc_node_eco_noise00.yaml,eco,MC-NODE,0.0,123,8837,25000,0,29537.429298877716
+mc_node_eco_noise00_seed2024,native/configs/mc_node_eco_noise00.yaml,eco,MC-NODE,0.0,2024,8837,25000,0,30257.08691215515
+mc_node_eco_noise00_seed3407,native/configs/mc_node_eco_noise00.yaml,eco,MC-NODE,0.0,3407,8837,25000,0,32240.836981534958
+mc_node_eco_noise00_seed42,native/configs/mc_node_eco_noise00.yaml,eco,MC-NODE,0.0,42,8837,25000,0,30590.67853164673
+mc_node_eco_noise00_seed7777,native/configs/mc_node_eco_noise00.yaml,eco,MC-NODE,0.0,7777,8837,25000,0,32003.44444680214
+mc_node_eco_noise01_seed123,native/configs/mc_node_eco_noise01.yaml,eco,MC-NODE,0.01,123,8837,25000,0,29180.465137958527
+mc_node_eco_noise01_seed2024,native/configs/mc_node_eco_noise01.yaml,eco,MC-NODE,0.01,2024,8837,25000,0,30073.45350909233
+mc_node_eco_noise01_seed3407,native/configs/mc_node_eco_noise01.yaml,eco,MC-NODE,0.01,3407,8837,25000,0,29206.332478284836
+mc_node_eco_noise01_seed42,native/configs/mc_node_eco_noise01.yaml,eco,MC-NODE,0.01,42,8837,25000,0,30014.852420806885
+mc_node_eco_noise01_seed7777,native/configs/mc_node_eco_noise01.yaml,eco,MC-NODE,0.01,7777,8837,25000,0,31538.622047185898
+mc_node_eco_noise06_seed123,native/configs/mc_node_eco_noise06.yaml,eco,MC-NODE,0.06,123,8837,25000,0,29072.03835964203
+mc_node_eco_noise06_seed2024,native/configs/mc_node_eco_noise06.yaml,eco,MC-NODE,0.06,2024,8837,25000,0,29036.16908431053
+mc_node_eco_noise06_seed3407,native/configs/mc_node_eco_noise06.yaml,eco,MC-NODE,0.06,3407,8837,25000,0,30765.915258169174
+mc_node_eco_noise06_seed42,native/configs/mc_node_eco_noise06.yaml,eco,MC-NODE,0.06,42,8837,25000,0,31210.219905138016
+mc_node_eco_noise06_seed7777,native/configs/mc_node_eco_noise06.yaml,eco,MC-NODE,0.06,7777,8837,25000,0,32086.617619752884
+mc_node_eco_noise10_seed123,native/configs/mc_node_eco_noise10.yaml,eco,MC-NODE,0.1,123,8837,25000,0,29077.19289112091
+mc_node_eco_noise10_seed2024,native/configs/mc_node_eco_noise10.yaml,eco,MC-NODE,0.1,2024,8837,25000,0,29939.465925455093
+mc_node_eco_noise10_seed3407,native/configs/mc_node_eco_noise10.yaml,eco,MC-NODE,0.1,3407,8837,25000,0,29941.9976978302
+mc_node_eco_noise10_seed42,native/configs/mc_node_eco_noise10.yaml,eco,MC-NODE,0.1,42,8837,25000,0,29123.749819993973
+mc_node_eco_noise10_seed7777,native/configs/mc_node_eco_noise10.yaml,eco,MC-NODE,0.1,7777,8837,25000,0,30167.722653388977
+neural_ode_eco_noise00_seed123,native/configs/neural_ode_eco_noise00.yaml,eco,Neural ODE,0.0,123,8964,35000,0,14755.229881048203
+neural_ode_eco_noise00_seed2024,native/configs/neural_ode_eco_noise00.yaml,eco,Neural ODE,0.0,2024,8964,35000,0,14271.634236812592
+neural_ode_eco_noise00_seed3407,native/configs/neural_ode_eco_noise00.yaml,eco,Neural ODE,0.0,3407,8964,35000,0,15105.181865930557
+neural_ode_eco_noise00_seed42,native/configs/neural_ode_eco_noise00.yaml,eco,Neural ODE,0.0,42,8964,35000,0,14757.92505812645
+neural_ode_eco_noise00_seed7777,native/configs/neural_ode_eco_noise00.yaml,eco,Neural ODE,0.0,7777,8964,35000,0,14346.238652706146
+neural_ode_eco_noise01_seed123,native/configs/neural_ode_eco_noise01.yaml,eco,Neural ODE,0.01,123,8964,35000,0,14298.010835170746
+neural_ode_eco_noise01_seed2024,native/configs/neural_ode_eco_noise01.yaml,eco,Neural ODE,0.01,2024,8964,35000,0,15015.332688570023
+neural_ode_eco_noise01_seed3407,native/configs/neural_ode_eco_noise01.yaml,eco,Neural ODE,0.01,3407,8964,35000,0,14603.843050479889
+neural_ode_eco_noise01_seed42,native/configs/neural_ode_eco_noise01.yaml,eco,Neural ODE,0.01,42,8964,35000,0,14266.60951423645
+neural_ode_eco_noise01_seed7777,native/configs/neural_ode_eco_noise01.yaml,eco,Neural ODE,0.01,7777,8964,35000,0,14863.210385084152
+neural_ode_eco_noise06_seed123,native/configs/neural_ode_eco_noise06.yaml,eco,Neural ODE,0.06,123,8964,35000,0,15538.208407878876
+neural_ode_eco_noise06_seed2024,native/configs/neural_ode_eco_noise06.yaml,eco,Neural ODE,0.06,2024,8964,35000,0,15537.465002775192
+neural_ode_eco_noise06_seed3407,native/configs/neural_ode_eco_noise06.yaml,eco,Neural ODE,0.06,3407,8964,35000,0,14558.862253427505
+neural_ode_eco_noise06_seed42,native/configs/neural_ode_eco_noise06.yaml,eco,Neural ODE,0.06,42,8964,35000,0,14195.109217643738
+neural_ode_eco_noise06_seed7777,native/configs/neural_ode_eco_noise06.yaml,eco,Neural ODE,0.06,7777,8964,35000,0,14836.393486499786
+neural_ode_eco_noise10_seed123,native/configs/neural_ode_eco_noise10.yaml,eco,Neural ODE,0.1,123,8964,35000,0,14671.849731206894
+neural_ode_eco_noise10_seed2024,native/configs/neural_ode_eco_noise10.yaml,eco,Neural ODE,0.1,2024,8964,35000,0,14416.470334529877
+neural_ode_eco_noise10_seed3407,native/configs/neural_ode_eco_noise10.yaml,eco,Neural ODE,0.1,3407,8964,35000,0,14718.825929641724
+neural_ode_eco_noise10_seed42,native/configs/neural_ode_eco_noise10.yaml,eco,Neural ODE,0.1,42,8964,35000,0,14291.701976060867
+neural_ode_eco_noise10_seed7777,native/configs/neural_ode_eco_noise10.yaml,eco,Neural ODE,0.1,7777,8964,35000,0,14630.727298259735
+pg_node_eco_noise00_seed123,native/configs/pg_node_eco_noise00.yaml,eco,PG-NODE,0.0,123,8968,42000,750,20414.61665582657
+pg_node_eco_noise00_seed2024,native/configs/pg_node_eco_noise00.yaml,eco,PG-NODE,0.0,2024,8968,42000,750,18905.35107278824
+pg_node_eco_noise00_seed3407,native/configs/pg_node_eco_noise00.yaml,eco,PG-NODE,0.0,3407,8968,42000,750,19625.8954911232
+pg_node_eco_noise00_seed42,native/configs/pg_node_eco_noise00.yaml,eco,PG-NODE,0.0,42,8968,42000,750,19716.691935777664
+pg_node_eco_noise00_seed7777,native/configs/pg_node_eco_noise00.yaml,eco,PG-NODE,0.0,7777,8968,42000,750,20409.895437955856
+pg_node_eco_noise01_seed123,native/configs/pg_node_eco_noise01.yaml,eco,PG-NODE,0.01,123,8968,42000,750,18403.64785718918
+pg_node_eco_noise01_seed2024,native/configs/pg_node_eco_noise01.yaml,eco,PG-NODE,0.01,2024,8968,42000,750,19208.644154548645
+pg_node_eco_noise01_seed3407,native/configs/pg_node_eco_noise01.yaml,eco,PG-NODE,0.01,3407,8968,42000,750,19251.289466381073
+pg_node_eco_noise01_seed42,native/configs/pg_node_eco_noise01.yaml,eco,PG-NODE,0.01,42,8968,42000,750,19693.111799955368
+pg_node_eco_noise01_seed7777,native/configs/pg_node_eco_noise01.yaml,eco,PG-NODE,0.01,7777,8968,42000,750,18447.7733438015
+pg_node_eco_noise06_seed123,native/configs/pg_node_eco_noise06.yaml,eco,PG-NODE,0.06,123,8968,42000,750,19175.698858976364
+pg_node_eco_noise06_seed2024,native/configs/pg_node_eco_noise06.yaml,eco,PG-NODE,0.06,2024,8968,42000,750,20125.72309064865
+pg_node_eco_noise06_seed3407,native/configs/pg_node_eco_noise06.yaml,eco,PG-NODE,0.06,3407,8968,42000,750,19730.537764549255
+pg_node_eco_noise06_seed42,native/configs/pg_node_eco_noise06.yaml,eco,PG-NODE,0.06,42,8968,42000,750,20321.467887163162
+pg_node_eco_noise06_seed7777,native/configs/pg_node_eco_noise06.yaml,eco,PG-NODE,0.06,7777,8968,42000,750,20159.70568060875
+pg_node_eco_noise10_seed123,native/configs/pg_node_eco_noise10.yaml,eco,PG-NODE,0.1,123,8968,42000,750,17878.964596033096
+pg_node_eco_noise10_seed2024,native/configs/pg_node_eco_noise10.yaml,eco,PG-NODE,0.1,2024,8968,42000,750,19710.834546804428
+pg_node_eco_noise10_seed3407,native/configs/pg_node_eco_noise10.yaml,eco,PG-NODE,0.1,3407,8968,42000,750,20602.08158636093
+pg_node_eco_noise10_seed42,native/configs/pg_node_eco_noise10.yaml,eco,PG-NODE,0.1,42,8968,42000,750,18122.332314491272
+pg_node_eco_noise10_seed7777,native/configs/pg_node_eco_noise10.yaml,eco,PG-NODE,0.1,7777,8968,42000,750,19419.522827386856
+pinn_eco_noise00_seed123,native/configs/pinn_eco_noise00.yaml,eco,PINN,0.0,123,17032,33000,2000,2770.4259152412415
+pinn_eco_noise00_seed2024,native/configs/pinn_eco_noise00.yaml,eco,PINN,0.0,2024,17032,33000,2000,2724.869978904724
+pinn_eco_noise00_seed3407,native/configs/pinn_eco_noise00.yaml,eco,PINN,0.0,3407,17032,33000,2000,2683.4030425548553
+pinn_eco_noise00_seed42,native/configs/pinn_eco_noise00.yaml,eco,PINN,0.0,42,17032,33000,2000,2598.2549505233765
+pinn_eco_noise00_seed7777,native/configs/pinn_eco_noise00.yaml,eco,PINN,0.0,7777,17032,33000,2000,2796.4201366901398
+pinn_eco_noise01_seed123,native/configs/pinn_eco_noise01.yaml,eco,PINN,0.01,123,17032,33000,2000,2836.682130098343
+pinn_eco_noise01_seed2024,native/configs/pinn_eco_noise01.yaml,eco,PINN,0.01,2024,17032,33000,2000,2743.698010444641
+pinn_eco_noise01_seed3407,native/configs/pinn_eco_noise01.yaml,eco,PINN,0.01,3407,17032,33000,2000,2791.318839073181
+pinn_eco_noise01_seed42,native/configs/pinn_eco_noise01.yaml,eco,PINN,0.01,42,17032,33000,2000,2686.4841299057007
+pinn_eco_noise01_seed7777,native/configs/pinn_eco_noise01.yaml,eco,PINN,0.01,7777,17032,33000,2000,2712.0272901058197
+pinn_eco_noise06_seed123,native/configs/pinn_eco_noise06.yaml,eco,PINN,0.06,123,17032,33000,2000,2548.4515042304993
+pinn_eco_noise06_seed2024,native/configs/pinn_eco_noise06.yaml,eco,PINN,0.06,2024,17032,33000,2000,2680.255934715271
+pinn_eco_noise06_seed3407,native/configs/pinn_eco_noise06.yaml,eco,PINN,0.06,3407,17032,33000,2000,2626.1420710086823
+pinn_eco_noise06_seed42,native/configs/pinn_eco_noise06.yaml,eco,PINN,0.06,42,17032,33000,2000,2418.3673470020294
+pinn_eco_noise06_seed7777,native/configs/pinn_eco_noise06.yaml,eco,PINN,0.06,7777,17032,33000,2000,2672.8360588550568
+pinn_eco_noise10_seed123,native/configs/pinn_eco_noise10.yaml,eco,PINN,0.1,123,17032,33000,2000,2708.7275609970093
+pinn_eco_noise10_seed2024,native/configs/pinn_eco_noise10.yaml,eco,PINN,0.1,2024,17032,33000,2000,2327.4700994491577
+pinn_eco_noise10_seed3407,native/configs/pinn_eco_noise10.yaml,eco,PINN,0.1,3407,17032,33000,2000,2418.600038766861
+pinn_eco_noise10_seed42,native/configs/pinn_eco_noise10.yaml,eco,PINN,0.1,42,17032,33000,2000,2404.8182723522186
+pinn_eco_noise10_seed7777,native/configs/pinn_eco_noise10.yaml,eco,PINN,0.1,7777,17032,33000,2000,2667.0895993709564
+ma_node_gene_noise00_seed123,native/configs/ma_node_gene_noise00.yaml,gene,MA-NODE,0.0,123,2373,16000,0,16883.46670603752
+ma_node_gene_noise00_seed2024,native/configs/ma_node_gene_noise00.yaml,gene,MA-NODE,0.0,2024,2373,16000,0,15243.144637584686
+ma_node_gene_noise00_seed3407,native/configs/ma_node_gene_noise00.yaml,gene,MA-NODE,0.0,3407,2373,16000,0,15359.33849287033
+ma_node_gene_noise00_seed42,native/configs/ma_node_gene_noise00.yaml,gene,MA-NODE,0.0,42,2373,16000,0,14465.725479602814
+ma_node_gene_noise00_seed7777,native/configs/ma_node_gene_noise00.yaml,gene,MA-NODE,0.0,7777,2373,16000,0,14425.89872789383
+ma_node_gene_noise01_seed123,native/configs/ma_node_gene_noise01.yaml,gene,MA-NODE,0.01,123,2373,16000,0,9002.897889614105
+ma_node_gene_noise01_seed2024,native/configs/ma_node_gene_noise01.yaml,gene,MA-NODE,0.01,2024,2373,16000,0,9390.490351676941
+ma_node_gene_noise01_seed3407,native/configs/ma_node_gene_noise01.yaml,gene,MA-NODE,0.01,3407,2373,16000,0,8462.692186117172
+ma_node_gene_noise01_seed42,native/configs/ma_node_gene_noise01.yaml,gene,MA-NODE,0.01,42,2373,16000,0,9188.73446393013
+ma_node_gene_noise01_seed7777,native/configs/ma_node_gene_noise01.yaml,gene,MA-NODE,0.01,7777,2373,16000,0,8468.250197649002
+ma_node_gene_noise06_seed123,native/configs/ma_node_gene_noise06.yaml,gene,MA-NODE,0.06,123,2373,16000,0,13578.162407636642
+ma_node_gene_noise06_seed2024,native/configs/ma_node_gene_noise06.yaml,gene,MA-NODE,0.06,2024,2373,16000,0,8791.425228834152
+ma_node_gene_noise06_seed3407,native/configs/ma_node_gene_noise06.yaml,gene,MA-NODE,0.06,3407,2373,16000,0,8819.55454659462
+ma_node_gene_noise06_seed42,native/configs/ma_node_gene_noise06.yaml,gene,MA-NODE,0.06,42,2373,16000,0,8288.75715970993
+ma_node_gene_noise06_seed7777,native/configs/ma_node_gene_noise06.yaml,gene,MA-NODE,0.06,7777,2373,16000,0,8671.834897518158
+ma_node_gene_noise10_seed123,native/configs/ma_node_gene_noise10.yaml,gene,MA-NODE,0.1,123,2373,16000,0,8783.843422412872
+ma_node_gene_noise10_seed2024,native/configs/ma_node_gene_noise10.yaml,gene,MA-NODE,0.1,2024,2373,16000,0,8906.905398130417
+ma_node_gene_noise10_seed3407,native/configs/ma_node_gene_noise10.yaml,gene,MA-NODE,0.1,3407,2373,16000,0,9436.069523334503
+ma_node_gene_noise10_seed42,native/configs/ma_node_gene_noise10.yaml,gene,MA-NODE,0.1,42,2373,16000,0,9050.555522918701
+ma_node_gene_noise10_seed7777,native/configs/ma_node_gene_noise10.yaml,gene,MA-NODE,0.1,7777,2373,16000,0,9457.092560052872
+mc_node_gene_noise00_seed123,native/configs/mc_node_gene_noise00.yaml,gene,MC-NODE,0.0,123,1397,25000,0,13940.010438203812
+mc_node_gene_noise00_seed2024,native/configs/mc_node_gene_noise00.yaml,gene,MC-NODE,0.0,2024,1397,25000,0,13362.050607442856
+mc_node_gene_noise00_seed3407,native/configs/mc_node_gene_noise00.yaml,gene,MC-NODE,0.0,3407,1397,25000,0,13871.865892410278
+mc_node_gene_noise00_seed42,native/configs/mc_node_gene_noise00.yaml,gene,MC-NODE,0.0,42,1397,25000,0,14778.36947441101
+mc_node_gene_noise00_seed7777,native/configs/mc_node_gene_noise00.yaml,gene,MC-NODE,0.0,7777,1397,25000,0,16179.72441458702
+mc_node_gene_noise01_seed123,native/configs/mc_node_gene_noise01.yaml,gene,MC-NODE,0.01,123,1397,25000,0,13008.555968284607
+mc_node_gene_noise01_seed2024,native/configs/mc_node_gene_noise01.yaml,gene,MC-NODE,0.01,2024,1397,25000,0,12181.866535186768
+mc_node_gene_noise01_seed3407,native/configs/mc_node_gene_noise01.yaml,gene,MC-NODE,0.01,3407,1397,25000,0,12882.505838871002
+mc_node_gene_noise01_seed42,native/configs/mc_node_gene_noise01.yaml,gene,MC-NODE,0.01,42,1397,25000,0,13095.601954698563
+mc_node_gene_noise01_seed7777,native/configs/mc_node_gene_noise01.yaml,gene,MC-NODE,0.01,7777,1397,25000,0,12353.852787971497
+mc_node_gene_noise06_seed123,native/configs/mc_node_gene_noise06.yaml,gene,MC-NODE,0.06,123,1397,25000,0,16869.464051008224
+mc_node_gene_noise06_seed2024,native/configs/mc_node_gene_noise06.yaml,gene,MC-NODE,0.06,2024,1397,25000,0,16577.650908231735
+mc_node_gene_noise06_seed3407,native/configs/mc_node_gene_noise06.yaml,gene,MC-NODE,0.06,3407,1397,25000,0,17341.752050876617
+mc_node_gene_noise06_seed42,native/configs/mc_node_gene_noise06.yaml,gene,MC-NODE,0.06,42,1397,25000,0,21175.46686911583
+mc_node_gene_noise06_seed7777,native/configs/mc_node_gene_noise06.yaml,gene,MC-NODE,0.06,7777,1397,25000,0,20637.78893661499
+mc_node_gene_noise10_seed123,native/configs/mc_node_gene_noise10.yaml,gene,MC-NODE,0.1,123,1397,25000,0,13133.432245731354
+mc_node_gene_noise10_seed2024,native/configs/mc_node_gene_noise10.yaml,gene,MC-NODE,0.1,2024,1397,25000,0,12307.65733551979
+mc_node_gene_noise10_seed3407,native/configs/mc_node_gene_noise10.yaml,gene,MC-NODE,0.1,3407,1397,25000,0,12271.146179676056
+mc_node_gene_noise10_seed42,native/configs/mc_node_gene_noise10.yaml,gene,MC-NODE,0.1,42,1397,25000,0,12059.027842998505
+mc_node_gene_noise10_seed7777,native/configs/mc_node_gene_noise10.yaml,gene,MC-NODE,0.1,7777,1397,25000,0,12708.654469251633
+neural_ode_gene_noise00_seed123,native/configs/neural_ode_gene_noise00.yaml,gene,Neural ODE,0.0,123,12995,35000,0,8472.62733912468
+neural_ode_gene_noise00_seed2024,native/configs/neural_ode_gene_noise00.yaml,gene,Neural ODE,0.0,2024,12995,35000,0,8292.157595157623
+neural_ode_gene_noise00_seed3407,native/configs/neural_ode_gene_noise00.yaml,gene,Neural ODE,0.0,3407,12995,35000,0,8345.373450517654
+neural_ode_gene_noise00_seed42,native/configs/neural_ode_gene_noise00.yaml,gene,Neural ODE,0.0,42,12995,35000,0,8856.099188566208
+neural_ode_gene_noise00_seed7777,native/configs/neural_ode_gene_noise00.yaml,gene,Neural ODE,0.0,7777,12995,35000,0,8331.748795032501
+neural_ode_gene_noise01_seed123,native/configs/neural_ode_gene_noise01.yaml,gene,Neural ODE,0.01,123,12995,35000,0,8599.529346227646
+neural_ode_gene_noise01_seed2024,native/configs/neural_ode_gene_noise01.yaml,gene,Neural ODE,0.01,2024,12995,35000,0,8965.033390760422
+neural_ode_gene_noise01_seed3407,native/configs/neural_ode_gene_noise01.yaml,gene,Neural ODE,0.01,3407,12995,35000,0,8422.975288152695
+neural_ode_gene_noise01_seed42,native/configs/neural_ode_gene_noise01.yaml,gene,Neural ODE,0.01,42,12995,35000,0,8599.361243963242
+neural_ode_gene_noise01_seed7777,native/configs/neural_ode_gene_noise01.yaml,gene,Neural ODE,0.01,7777,12995,35000,0,8338.650795698166
+neural_ode_gene_noise06_seed123,native/configs/neural_ode_gene_noise06.yaml,gene,Neural ODE,0.06,123,12995,35000,0,8658.851581811905
+neural_ode_gene_noise06_seed2024,native/configs/neural_ode_gene_noise06.yaml,gene,Neural ODE,0.06,2024,12995,35000,0,9104.450271844864
+neural_ode_gene_noise06_seed3407,native/configs/neural_ode_gene_noise06.yaml,gene,Neural ODE,0.06,3407,12995,35000,0,8605.368595838547
+neural_ode_gene_noise06_seed42,native/configs/neural_ode_gene_noise06.yaml,gene,Neural ODE,0.06,42,12995,35000,0,9045.069416046143
+neural_ode_gene_noise06_seed7777,native/configs/neural_ode_gene_noise06.yaml,gene,Neural ODE,0.06,7777,12995,35000,0,8367.681422233582
+neural_ode_gene_noise10_seed123,native/configs/neural_ode_gene_noise10.yaml,gene,Neural ODE,0.1,123,12995,35000,0,8303.570997953415
+neural_ode_gene_noise10_seed2024,native/configs/neural_ode_gene_noise10.yaml,gene,Neural ODE,0.1,2024,12995,35000,0,8265.903278589249
+neural_ode_gene_noise10_seed3407,native/configs/neural_ode_gene_noise10.yaml,gene,Neural ODE,0.1,3407,12995,35000,0,9081.274032115936
+neural_ode_gene_noise10_seed42,native/configs/neural_ode_gene_noise10.yaml,gene,Neural ODE,0.1,42,12995,35000,0,8774.424908876419
+neural_ode_gene_noise10_seed7777,native/configs/neural_ode_gene_noise10.yaml,gene,Neural ODE,0.1,7777,12995,35000,0,8690.073540687561
+pg_node_gene_noise00_seed123,native/configs/pg_node_gene_noise00.yaml,gene,PG-NODE,0.0,123,8837,42000,750,9603.8538377285
+pg_node_gene_noise00_seed2024,native/configs/pg_node_gene_noise00.yaml,gene,PG-NODE,0.0,2024,8837,42000,750,9213.335650205612
+pg_node_gene_noise00_seed3407,native/configs/pg_node_gene_noise00.yaml,gene,PG-NODE,0.0,3407,8837,42000,750,9155.406705141068
+pg_node_gene_noise00_seed42,native/configs/pg_node_gene_noise00.yaml,gene,PG-NODE,0.0,42,8837,42000,750,9098.440569162369
+pg_node_gene_noise00_seed7777,native/configs/pg_node_gene_noise00.yaml,gene,PG-NODE,0.0,7777,8837,42000,750,9420.925864219666
+pg_node_gene_noise01_seed123,native/configs/pg_node_gene_noise01.yaml,gene,PG-NODE,0.01,123,8837,42000,750,9389.76881814003
+pg_node_gene_noise01_seed2024,native/configs/pg_node_gene_noise01.yaml,gene,PG-NODE,0.01,2024,8837,42000,750,9071.10694360733
+pg_node_gene_noise01_seed3407,native/configs/pg_node_gene_noise01.yaml,gene,PG-NODE,0.01,3407,8837,42000,750,9080.562994241714
+pg_node_gene_noise01_seed42,native/configs/pg_node_gene_noise01.yaml,gene,PG-NODE,0.01,42,8837,42000,750,9588.79834151268
+pg_node_gene_noise01_seed7777,native/configs/pg_node_gene_noise01.yaml,gene,PG-NODE,0.01,7777,8837,42000,750,9268.883044958115
+pg_node_gene_noise06_seed123,native/configs/pg_node_gene_noise06.yaml,gene,PG-NODE,0.06,123,8837,42000,750,9751.039116621017
+pg_node_gene_noise06_seed2024,native/configs/pg_node_gene_noise06.yaml,gene,PG-NODE,0.06,2024,8837,42000,750,9743.852357149124
+pg_node_gene_noise06_seed3407,native/configs/pg_node_gene_noise06.yaml,gene,PG-NODE,0.06,3407,8837,42000,750,9989.88023853302
+pg_node_gene_noise06_seed42,native/configs/pg_node_gene_noise06.yaml,gene,PG-NODE,0.06,42,8837,42000,750,9507.697170972824
+pg_node_gene_noise06_seed7777,native/configs/pg_node_gene_noise06.yaml,gene,PG-NODE,0.06,7777,8837,42000,750,9657.444771289825
+pg_node_gene_noise10_seed123,native/configs/pg_node_gene_noise10.yaml,gene,PG-NODE,0.1,123,8837,42000,750,10318.15212893486
+pg_node_gene_noise10_seed2024,native/configs/pg_node_gene_noise10.yaml,gene,PG-NODE,0.1,2024,8837,42000,750,9611.510520458221
+pg_node_gene_noise10_seed3407,native/configs/pg_node_gene_noise10.yaml,gene,PG-NODE,0.1,3407,8837,42000,750,9145.248516321182
+pg_node_gene_noise10_seed42,native/configs/pg_node_gene_noise10.yaml,gene,PG-NODE,0.1,42,8837,42000,750,10472.325357198715
+pg_node_gene_noise10_seed7777,native/configs/pg_node_gene_noise10.yaml,gene,PG-NODE,0.1,7777,8837,42000,750,10004.891730546951
+pinn_gene_noise00_seed123,native/configs/pinn_gene_noise00.yaml,gene,PINN,0.0,123,16965,33000,2000,2042.9570090770721
+pinn_gene_noise00_seed2024,native/configs/pinn_gene_noise00.yaml,gene,PINN,0.0,2024,16965,33000,2000,2080.454003572464
+pinn_gene_noise00_seed3407,native/configs/pinn_gene_noise00.yaml,gene,PINN,0.0,3407,16965,33000,2000,2068.723093509674
+pinn_gene_noise00_seed42,native/configs/pinn_gene_noise00.yaml,gene,PINN,0.0,42,16965,33000,2000,2085.2910192012787
+pinn_gene_noise00_seed7777,native/configs/pinn_gene_noise00.yaml,gene,PINN,0.0,7777,16965,33000,2000,1456.5908062458038
+pinn_gene_noise01_seed123,native/configs/pinn_gene_noise01.yaml,gene,PINN,0.01,123,16965,33000,2000,2060.5997817516327
+pinn_gene_noise01_seed2024,native/configs/pinn_gene_noise01.yaml,gene,PINN,0.01,2024,16965,33000,2000,2091.032621383667
+pinn_gene_noise01_seed3407,native/configs/pinn_gene_noise01.yaml,gene,PINN,0.01,3407,16965,33000,2000,2106.074687719345
+pinn_gene_noise01_seed42,native/configs/pinn_gene_noise01.yaml,gene,PINN,0.01,42,16965,33000,2000,2131.072304725647
+pinn_gene_noise01_seed7777,native/configs/pinn_gene_noise01.yaml,gene,PINN,0.01,7777,16965,33000,2000,2092.7169301509857
+pinn_gene_noise06_seed123,native/configs/pinn_gene_noise06.yaml,gene,PINN,0.06,123,16965,33000,2000,2154.762319087982
+pinn_gene_noise06_seed2024,native/configs/pinn_gene_noise06.yaml,gene,PINN,0.06,2024,16965,33000,2000,2176.1419603824615
+pinn_gene_noise06_seed3407,native/configs/pinn_gene_noise06.yaml,gene,PINN,0.06,3407,16965,33000,2000,2184.851999282837
+pinn_gene_noise06_seed42,native/configs/pinn_gene_noise06.yaml,gene,PINN,0.06,42,16965,33000,2000,2356.9879190921783
+pinn_gene_noise06_seed7777,native/configs/pinn_gene_noise06.yaml,gene,PINN,0.06,7777,16965,33000,2000,1735.7406260967255
+pinn_gene_noise10_seed123,native/configs/pinn_gene_noise10.yaml,gene,PINN,0.1,123,16965,33000,2000,2393.5499725341797
+pinn_gene_noise10_seed2024,native/configs/pinn_gene_noise10.yaml,gene,PINN,0.1,2024,16965,33000,2000,2369.840012073517
+pinn_gene_noise10_seed3407,native/configs/pinn_gene_noise10.yaml,gene,PINN,0.1,3407,16965,33000,2000,2315.9983401298523
+pinn_gene_noise10_seed42,native/configs/pinn_gene_noise10.yaml,gene,PINN,0.1,42,16965,33000,2000,2397.732364177704
+pinn_gene_noise10_seed7777,native/configs/pinn_gene_noise10.yaml,gene,PINN,0.1,7777,16965,33000,2000,2415.135635614395

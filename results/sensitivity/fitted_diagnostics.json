@@ -1,0 +1,382 @@
+[
+  {
+    "system": "gene",
+    "model": "PG-NODE",
+    "seed": 123,
+    "condition": 46.490252062542446,
+    "rse10": [
+      0.07183847248873637,
+      0.14595192027960635
+    ],
+    "log_parameter_error": [
+      0.00730268219472419,
+      0.04285876728975705
+    ],
+    "weak_direction_error_fraction": 0.9332381573643495,
+    "full_rhs_reintegrated_heldout_l2": 0.0015035415496546876,
+    "archived_hybrid_heldout_l2": 0.036676064133644104
+  },
+  {
+    "system": "gene",
+    "model": "PG-NODE",
+    "seed": 2024,
+    "condition": 46.55372368319754,
+    "rse10": [
+      0.07248243807709591,
+      0.14774208918382872
+    ],
+    "log_parameter_error": [
+      0.022654593766858376,
+      0.035656953817721077
+    ],
+    "weak_direction_error_fraction": 0.981647400569604,
+    "full_rhs_reintegrated_heldout_l2": 0.0014550258849877734,
+    "archived_hybrid_heldout_l2": 0.020559942349791527
+  },
+  {
+    "system": "gene",
+    "model": "PG-NODE",
+    "seed": 3407,
+    "condition": 47.21078905883186,
+    "rse10": [
+      0.07319351268513738,
+      0.14454436015913838
+    ],
+    "log_parameter_error": [
+      0.01741817535252403,
+      0.0956884230056877
+    ],
+    "weak_direction_error_fraction": 0.9387634106398519,
+    "full_rhs_reintegrated_heldout_l2": 0.003335790885003719,
+    "archived_hybrid_heldout_l2": 0.028651604428887367
+  },
+  {
+    "system": "gene",
+    "model": "PG-NODE",
+    "seed": 42,
+    "condition": 47.29824335095307,
+    "rse10": [
+      0.0733677398031012,
+      0.1444954596188935
+    ],
+    "log_parameter_error": [
+      0.01920031806979061,
+      0.10075945429466487
+    ],
+    "weak_direction_error_fraction": 0.9426548950228919,
+    "full_rhs_reintegrated_heldout_l2": 0.003446407365165041,
+    "archived_hybrid_heldout_l2": 0.049406152218580246
+  },
+  {
+    "system": "gene",
+    "model": "PG-NODE",
+    "seed": 7777,
+    "condition": 45.340079596295,
+    "rse10": [
+      0.06766091966943025,
+      0.14751801220537228
+    ],
+    "log_parameter_error": [
+      -0.043006536605939547,
+      -0.0808834203408463
+    ],
+    "weak_direction_error_fraction": 0.9965727766178769,
+    "full_rhs_reintegrated_heldout_l2": 0.0026327106270586736,
+    "archived_hybrid_heldout_l2": 0.035159334540367126
+  },
+  {
+    "system": "gene",
+    "model": "MA-NODE",
+    "seed": 123,
+    "condition": 45.13693667149364,
+    "rse10": [
+      0.0635704445489788,
+      0.148553052189568
+    ],
+    "log_parameter_error": [
+      -0.10410695671133259,
+      -0.19469599441588617
+    ],
+    "weak_direction_error_fraction": 0.9962938315408207,
+    "full_rhs_reintegrated_heldout_l2": 0.006572632367618569,
+    "archived_hybrid_heldout_l2": 0.026673154905438423
+  },
+  {
+    "system": "gene",
+    "model": "MA-NODE",
+    "seed": 2024,
+    "condition": 45.14714730543925,
+    "rse10": [
+      0.065276193221936,
+      0.14871852026517077
+    ],
+    "log_parameter_error": [
+      -0.07545360891085402,
+      -0.15428067669351417
+    ],
+    "weak_direction_error_fraction": 0.9993877431078194,
+    "full_rhs_reintegrated_heldout_l2": 0.004584152870106322,
+    "archived_hybrid_heldout_l2": 0.01566007174551487
+  },
+  {
+    "system": "gene",
+    "model": "MA-NODE",
+    "seed": 3407,
+    "condition": 46.6175508462204,
+    "rse10": [
+      0.0727242483519208,
+      0.14797906699225083
+    ],
+    "log_parameter_error": [
+      0.026591170992687246,
+      0.038584079658100116
+    ],
+    "weak_direction_error_fraction": 0.9702642338072582,
+    "full_rhs_reintegrated_heldout_l2": 0.001781696915727708,
+    "archived_hybrid_heldout_l2": 0.016193751245737076
+  },
+  {
+    "system": "gene",
+    "model": "MA-NODE",
+    "seed": 42,
+    "condition": 46.066896617648595,
+    "rse10": [
+      0.06989471949658325,
+      0.14292254651588712
+    ],
+    "log_parameter_error": [
+      -0.029934664135337588,
+      0.03377125115874899
+    ],
+    "weak_direction_error_fraction": 0.1628811357882045,
+    "full_rhs_reintegrated_heldout_l2": 0.0053515813243318715,
+    "archived_hybrid_heldout_l2": 0.023707346990704536
+  },
+  {
+    "system": "gene",
+    "model": "MA-NODE",
+    "seed": 7777,
+    "condition": 47.36304523966549,
+    "rse10": [
+      0.07379447253344483,
+      0.1454198175279035
+    ],
+    "log_parameter_error": [
+      0.028213756622212916,
+      0.09896659336762964
+    ],
+    "weak_direction_error_fraction": 0.9769534163753736,
+    "full_rhs_reintegrated_heldout_l2": 0.0027258765282532895,
+    "archived_hybrid_heldout_l2": 0.008246786892414093
+  },
+  {
+    "system": "eco",
+    "model": "PG-NODE",
+    "seed": 123,
+    "condition": 121941.9946341149,
+    "rse10": [
+      0.07689285463346275,
+      0.00034165536191628097,
+      0.017297771427030262,
+      0.0214048118066124
+    ],
+    "log_parameter_error": [
+      0.17917439186653494,
+      -0.003003468301024587,
+      0.19948569810578398,
+      -0.00025788294224611704
+    ],
+    "weak_direction_error_fraction": 0.4030780784654412,
+    "full_rhs_reintegrated_heldout_l2": 0.06025811355318614,
+    "archived_hybrid_heldout_l2": 0.025043843314051628
+  },
+  {
+    "system": "eco",
+    "model": "PG-NODE",
+    "seed": 2024,
+    "condition": 143159.77161455137,
+    "rse10": [
+      0.0834682990710815,
+      0.00035441356589852925,
+      0.018148718742189037,
+      0.02203420686824107
+    ],
+    "log_parameter_error": [
+      0.2052192990710804,
+      -0.004499180859083115,
+      0.2806592289656913,
+      0.03060798898106172
+    ],
+    "weak_direction_error_fraction": 0.2857166314579686,
+    "full_rhs_reintegrated_heldout_l2": 0.07811353206667869,
+    "archived_hybrid_heldout_l2": 0.020987996831536293
+  },
+  {
+    "system": "eco",
+    "model": "PG-NODE",
+    "seed": 3407,
+    "condition": 114958.64425549355,
+    "rse10": [
+      0.074655148743192,
+      0.00036571553721176543,
+      0.016914842988061486,
+      0.020553085721297458
+    ],
+    "log_parameter_error": [
+      0.1885508073352577,
+      -0.0027935712407134417,
+      0.22448510657246531,
+      -0.06271271053581325
+    ],
+    "weak_direction_error_fraction": 0.4185153601006226,
+    "full_rhs_reintegrated_heldout_l2": 0.07008104987705893,
+    "archived_hybrid_heldout_l2": 0.0208825021982193
+  },
+  {
+    "system": "eco",
+    "model": "PG-NODE",
+    "seed": 42,
+    "condition": 123595.8687625505,
+    "rse10": [
+      0.07757915957141719,
+      0.000380376603360062,
+      0.017817869043382253,
+      0.020623111753662358
+    ],
+    "log_parameter_error": [
+      0.18485486066320345,
+      -0.0031635681448942037,
+      0.33260377070150304,
+      0.019744828404279477
+    ],
+    "weak_direction_error_fraction": 0.195506232884956,
+    "full_rhs_reintegrated_heldout_l2": 0.0902361945910305,
+    "archived_hybrid_heldout_l2": 0.016163066029548645
+  },
+  {
+    "system": "eco",
+    "model": "PG-NODE",
+    "seed": 7777,
+    "condition": 90796.61472722782,
+    "rse10": [
+      0.06640560063429611,
+      0.00032488697805516884,
+      0.016283376558424236,
+      0.02085245916443381
+    ],
+    "log_parameter_error": [
+      0.17420236141296308,
+      -0.004059069171494709,
+      0.08458503346152482,
+      -0.03997166190149184
+    ],
+    "weak_direction_error_fraction": 0.8020453338297936,
+    "full_rhs_reintegrated_heldout_l2": 0.03244859089689148,
+    "archived_hybrid_heldout_l2": 0.02137066051363945
+  },
+  {
+    "system": "eco",
+    "model": "MA-NODE",
+    "seed": 123,
+    "condition": 82703.39037169737,
+    "rse10": [
+      0.10105907069197953,
+      0.008076342990248729,
+      0.014423383654827633,
+      0.013040677314825456
+    ],
+    "log_parameter_error": [
+      -2.490970398303932,
+      0.07713915750626209,
+      0.018836585840780625,
+      -0.009550976039420107
+    ],
+    "weak_direction_error_fraction": 0.9390725367274818,
+    "full_rhs_reintegrated_heldout_l2": 0.016783382266284314,
+    "archived_hybrid_heldout_l2": 0.016617709770798683
+  },
+  {
+    "system": "eco",
+    "model": "MA-NODE",
+    "seed": 2024,
+    "condition": 73433.67336844224,
+    "rse10": [
+      0.05865506603473297,
+      0.00039485148704712945,
+      0.015181855412887572,
+      0.021053010518713666
+    ],
+    "log_parameter_error": [
+      -0.4718799306351098,
+      0.008135578459975652,
+      -0.0007735302858824923,
+      0.0035356884914006996
+    ],
+    "weak_direction_error_fraction": 0.944623136077419,
+    "full_rhs_reintegrated_heldout_l2": 0.005727670442770437,
+    "archived_hybrid_heldout_l2": 0.0069734337739646435
+  },
+  {
+    "system": "eco",
+    "model": "MA-NODE",
+    "seed": 3407,
+    "condition": 76513.92266624839,
+    "rse10": [
+      0.06007701795095667,
+      0.0003982700978527336,
+      0.014998675442049476,
+      0.020732524930012885
+    ],
+    "log_parameter_error": [
+      -0.38600174839013834,
+      0.006971249743536714,
+      0.015890472282101456,
+      -0.030499811361744324
+    ],
+    "weak_direction_error_fraction": 0.8988858135880984,
+    "full_rhs_reintegrated_heldout_l2": 0.010542322949250279,
+    "archived_hybrid_heldout_l2": 0.009461378678679466
+  },
+  {
+    "system": "eco",
+    "model": "MA-NODE",
+    "seed": 42,
+    "condition": 75962.56873547369,
+    "rse10": [
+      0.06012927863061183,
+      0.00037378848042478053,
+      0.015617041372403967,
+      0.021289819060024813
+    ],
+    "log_parameter_error": [
+      -0.3585575138830998,
+      0.001238978243122643,
+      0.028834943017410016,
+      0.022658235604375177
+    ],
+    "weak_direction_error_fraction": 0.9640912022077186,
+    "full_rhs_reintegrated_heldout_l2": 0.007817608854657656,
+    "archived_hybrid_heldout_l2": 0.008395551703870296
+  },
+  {
+    "system": "eco",
+    "model": "MA-NODE",
+    "seed": 7777,
+    "condition": 93696.14480276914,
+    "rse10": [
+      0.06793694033566726,
+      0.00029046348543724886,
+      0.01699734067468742,
+      0.02200603095573979
+    ],
+    "log_parameter_error": [
+      0.4018076033558992,
+      -0.0027548898596119645,
+      0.0301950107626478,
+      0.03701910121603175
+    ],
+    "weak_direction_error_fraction": 0.883662438490209,
+    "full_rhs_reintegrated_heldout_l2": 0.007694825911500193,
+    "archived_hybrid_heldout_l2": 0.008106645196676254
+  }
+]

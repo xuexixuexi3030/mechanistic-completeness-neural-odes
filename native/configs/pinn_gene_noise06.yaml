@@ -1,0 +1,149 @@
+device: cuda
+experiment_name: pinn_gene_noise06
+model:
+  activation: tanh
+  correction_scale: 0.1
+  hidden_layers: 5
+  hidden_units: 64
+  init_method: glorot_normal
+  mode: pinn
+  mode_a_constrain_unknown: false
+  mode_a_normalize_inputs: false
+  mode_a_state_scales: []
+  mode_a_use_correction: true
+  mode_b_neighborhood_samples: 0
+  mode_b_neighborhood_scale: 0.0
+  mode_b_normalize_inputs: false
+  mode_b_output_scales: []
+  mode_b_state_scales: []
+  mode_c_bound_correction: true
+  mode_c_use_correction: true
+  mode_c_use_physics: true
+  node_hidden_layers: 3
+  node_hidden_units: 32
+  node_normalize_inputs: false
+  node_output_scales: []
+  node_state_scales: []
+  ode_atol: 1.0e-06
+  ode_rtol: 0.0001
+  ode_solver: rk4
+  ode_step_size: 1.0
+  pinn_output_transform: smooth_abs
+  pinn_state_scales:
+  - 15.0
+  - 25.0
+  - 75.0
+  positive_output: true
+  use_adjoint: false
+output_dir: results
+system:
+  data_path: ''
+  data_source: synthetic
+  initial_conditions: []
+  name: gene_regulatory
+  noise_mode: relative_state_std
+  noise_std: 0.06
+  num_test_points: 100
+  num_train_points: 10
+  param_init: {}
+  preserve_initial_observation: true
+  split_strategy: uniform
+  state_columns: []
+  t_span:
+  - 0.0
+  - 100.0
+  time_column: time
+  true_params: {}
+training:
+  adam_amsgrad: true
+  adam_beta1: 0.9
+  adam_beta2: 0.9997
+  adam_decay_start: 22000
+  adam_epochs: 33000
+  adam_eps: 1.0e-08
+  adam_final_lr: 2.5e-07
+  adam_lr: 6.0e-05
+  alternating_network_steps: 0
+  alternating_physics_steps: 0
+  alternating_update_start: 0
+  balancing_strategy: fixed
+  checkpoint_every: 2500
+  component_loss: true
+  data_component_max_weight: 0.04
+  data_component_weights:
+  - 1.2
+  - 1.25
+  - 0.55
+  data_normalization_floor: 1.0
+  early_stopping_min_relative_improvement: 0.001
+  early_stopping_patience: 0
+  early_stopping_start_epoch: 1000
+  ema_decay: 0.0
+  ema_max_loss_ratio: 1.05
+  ema_start_epoch: 0
+  ema_use_for_final: false
+  gradient_clip_norm: 0.35
+  gradnorm_alpha: 1.5
+  init_checkpoint: ''
+  lambda_correction: 0.0
+  lambda_data: 1.0
+  lambda_gamma: 0.0
+  lambda_ic: 10.0
+  lambda_physics: 0.3
+  lambda_physics_data: 0.0
+  lambda_reg: 0.0
+  lbfgs_epochs: 2000
+  lbfgs_lr: 0.03
+  lbfgs_max_iter: 8
+  log_every: 10
+  loss_backtrack_end_epoch: 0
+  loss_backtrack_factor: 0.5
+  loss_backtrack_max_steps: 0
+  loss_backtrack_rejection_lr_factor: 0.25
+  loss_backtrack_start_epoch: 0
+  loss_backtrack_trigger_ratio: 0.0
+  loss_type: normalized_mse
+  lr_stage_transition_epochs: 1800
+  lr_stages:
+  - network_factor: 0.8
+    physics_factor: 0.9
+    start: 5000
+  - network_factor: 0.6
+    physics_factor: 0.72
+    start: 10000
+  - network_factor: 0.4
+    physics_factor: 0.5
+    start: 16000
+  - network_factor: 0.22
+    physics_factor: 0.28
+    start: 22000
+  - network_factor: 0.09
+    physics_factor: 0.12
+    start: 28000
+  max_network_update_norm: 0.002
+  max_physics_update_norm: 2.0e-05
+  normalize_physics_loss: true
+  num_collocation: 1000
+  ode_window_epochs: 0
+  ode_window_points: 0
+  ode_window_strategy: rotating
+  ode_windows_per_epoch: 1
+  parameter_refine_network_lr_factor: 1.0
+  parameter_refine_physics_lr_factor: 1.0
+  parameter_refine_start: 0
+  phys_lr: 1.5e-05
+  phys_lr_overrides: {}
+  physics_data_derivative_method: midpoint
+  physics_ramp_epochs: 0
+  physics_ramp_power: 1.0
+  physics_ramp_schedule: linear
+  physics_warmup_epochs: 0
+  pinn_adaptive_collocation: false
+  pinn_adaptive_fraction: 0.0
+  pinn_candidate_multiplier: 3
+  pinn_resample_every: 1000
+  seed: 42
+  softadapt_tau: 0.1
+  softadapt_window: 5
+  target_loss: 0.0
+  target_loss_patience: 1

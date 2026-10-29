@@ -1,0 +1,76 @@
+model,baseline,metric,seed,block_geometric_ratio
+MC-NODE,PINN,trajectory_relative_l2,42,0.26670745199464313
+MC-NODE,PINN,trajectory_relative_l2,123,0.2809438109874511
+MC-NODE,PINN,trajectory_relative_l2,2024,0.19534763993036627
+MC-NODE,PINN,trajectory_relative_l2,3407,0.22421999185638236
+MC-NODE,PINN,trajectory_relative_l2,7777,0.29777826681284114
+MC-NODE,PINN,physical_residual,42,0.2765680464014415
+MC-NODE,PINN,physical_residual,123,0.3245770703442135
+MC-NODE,PINN,physical_residual,2024,0.24060442818816194
+MC-NODE,PINN,physical_residual,3407,0.30886587973529095
+MC-NODE,PINN,physical_residual,7777,0.3568157131479754
+MC-NODE,PINN,shared_parameter_relative_error,42,0.45620709665802117
+MC-NODE,PINN,shared_parameter_relative_error,123,0.4452316254152574
+MC-NODE,PINN,shared_parameter_relative_error,2024,0.4700245291319638
+MC-NODE,PINN,shared_parameter_relative_error,3407,0.5970351231723391
+MC-NODE,PINN,shared_parameter_relative_error,7777,0.36402567267315405
+MC-NODE,Neural ODE,trajectory_relative_l2,42,0.40651101078967583
+MC-NODE,Neural ODE,trajectory_relative_l2,123,0.4040425018471296
+MC-NODE,Neural ODE,trajectory_relative_l2,2024,0.3229719057888599
+MC-NODE,Neural ODE,trajectory_relative_l2,3407,0.37905557421709435
+MC-NODE,Neural ODE,trajectory_relative_l2,7777,0.505580430162137
+MC-NODE,Neural ODE,physical_residual,42,0.2994527521333336
+MC-NODE,Neural ODE,physical_residual,123,0.3255068774891387
+MC-NODE,Neural ODE,physical_residual,2024,0.2568335557471136
+MC-NODE,Neural ODE,physical_residual,3407,0.3333759495513716
+MC-NODE,Neural ODE,physical_residual,7777,0.37493697148461574
+PG-NODE,PINN,trajectory_relative_l2,42,0.32123973857221677
+PG-NODE,PINN,trajectory_relative_l2,123,0.3408052203582614
+PG-NODE,PINN,trajectory_relative_l2,2024,0.2876094987450852
+PG-NODE,PINN,trajectory_relative_l2,3407,0.31151736522829254
+PG-NODE,PINN,trajectory_relative_l2,7777,0.293262771777221
+PG-NODE,PINN,physical_residual,42,0.48187734934537063
+PG-NODE,PINN,physical_residual,123,0.44707165228179285
+PG-NODE,PINN,physical_residual,2024,0.44949553254331487
+PG-NODE,PINN,physical_residual,3407,0.46756089000417056
+PG-NODE,PINN,physical_residual,7777,0.42960400750271527
+PG-NODE,PINN,shared_parameter_relative_error,42,0.18517097527467283
+PG-NODE,PINN,shared_parameter_relative_error,123,0.16722415001481805
+PG-NODE,PINN,shared_parameter_relative_error,2024,0.19350218445900685
+PG-NODE,PINN,shared_parameter_relative_error,3407,0.19643866751088304
+PG-NODE,PINN,shared_parameter_relative_error,7777,0.13479380967801424
+PG-NODE,Neural ODE,trajectory_relative_l2,42,0.48962820444711824
+PG-NODE,Neural ODE,trajectory_relative_l2,123,0.4901328610590566
+PG-NODE,Neural ODE,trajectory_relative_l2,2024,0.47551016211811126
+PG-NODE,Neural ODE,trajectory_relative_l2,3407,0.5266363305857266
+PG-NODE,Neural ODE,trajectory_relative_l2,7777,0.4979138333116063
+PG-NODE,Neural ODE,physical_residual,42,0.5217504347654638
+PG-NODE,Neural ODE,physical_residual,123,0.44835236633884046
+PG-NODE,Neural ODE,physical_residual,2024,0.47981467666612976
+PG-NODE,Neural ODE,physical_residual,3407,0.504664211572395
+PG-NODE,Neural ODE,physical_residual,7777,0.45142189532421984
+MA-NODE,PINN,trajectory_relative_l2,42,0.04875819265755332
+MA-NODE,PINN,trajectory_relative_l2,123,0.06659961837842952
+MA-NODE,PINN,trajectory_relative_l2,2024,0.03967504428172621
+MA-NODE,PINN,trajectory_relative_l2,3407,0.04694928980783394
+MA-NODE,PINN,trajectory_relative_l2,7777,0.033074949915942696
+MA-NODE,PINN,physical_residual,42,0.050789630195671454
+MA-NODE,PINN,physical_residual,123,0.07372381825431339
+MA-NODE,PINN,physical_residual,2024,0.06516387388822426
+MA-NODE,PINN,physical_residual,3407,0.05188131110256489
+MA-NODE,PINN,physical_residual,7777,0.044346240430864
+MA-NODE,PINN,shared_parameter_relative_error,42,0.02505642092400206
+MA-NODE,PINN,shared_parameter_relative_error,123,0.04984726714875124
+MA-NODE,PINN,shared_parameter_relative_error,2024,0.042726099137067215
+MA-NODE,PINN,shared_parameter_relative_error,3407,0.031632824006904724
+MA-NODE,PINN,shared_parameter_relative_error,7777,0.027914431010799965
+MA-NODE,Neural ODE,trajectory_relative_l2,42,0.07431641685774068
+MA-NODE,Neural ODE,trajectory_relative_l2,123,0.09578099028807822
+MA-NODE,Neural ODE,trajectory_relative_l2,2024,0.06559549257157232
+MA-NODE,Neural ODE,trajectory_relative_l2,3407,0.07937021966619387
+MA-NODE,Neural ODE,trajectory_relative_l2,7777,0.056156037124776306
+MA-NODE,Neural ODE,physical_residual,42,0.05499223333939277
+MA-NODE,Neural ODE,physical_residual,123,0.07393501288026569
+MA-NODE,Neural ODE,physical_residual,2024,0.06955927437827833
+MA-NODE,Neural ODE,physical_residual,3407,0.05599835555682279
+MA-NODE,Neural ODE,physical_residual,7777,0.0465984105273451

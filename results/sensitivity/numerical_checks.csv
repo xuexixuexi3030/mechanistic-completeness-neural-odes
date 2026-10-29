@@ -1,0 +1,11 @@
+system,check,setting,relative_discrepancy
+gene,Scaled sensitivity vs central log difference,0.001,6.68e-08
+gene,Scaled sensitivity vs central log difference,0.0001,1.16e-08
+gene,Scaled sensitivity vs central log difference,1e-05,1.32e-08
+gene,Information condition number relative change,Tighter Radau tolerances,1.6e-11
+gene,Reference vs archived trajectory relative L2,Original full grid,2.98e-08
+eco,Scaled sensitivity vs central log difference,0.001,1.73e-07
+eco,Scaled sensitivity vs central log difference,0.0001,1.74e-09
+eco,Scaled sensitivity vs central log difference,1e-05,1.65e-10
+eco,Information condition number relative change,Tighter Radau tolerances,9.34e-13
+eco,Reference vs archived trajectory relative L2,Original full grid,1.93e-08

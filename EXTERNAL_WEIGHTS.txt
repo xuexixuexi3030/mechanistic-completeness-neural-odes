@@ -1,0 +1,25 @@
+EXTERNAL INITIAL WEIGHTS
+
+Paths below are relative to the package root. Checkpoint files are not included.
+
+ablations/checkpoints/pg_node_gene_initial.pt
+# PG-NODE model state from the preceding ten-observation gene training stage.
+Used by ablations/configs/pg_node_refine_full_gene.yaml and
+ablations/configs/pg_node_refine_no_backtrack_gene.yaml.
+
+ablations/checkpoints/pg_node_eco_initial.pt
+# PG-NODE model state from the preceding ten-observation eco training stage.
+Used by ablations/configs/pg_node_refine_full_eco.yaml and
+ablations/configs/pg_node_refine_no_backtrack_eco.yaml.
+
+Use the original initial states for these continuations; unrelated or freshly
+trained weights are not equivalent. The loader accepts a PyTorch state_dict or
+a dictionary containing model_state_dict. Model keys and tensor shapes must
+match exactly. Loading initializes model parameters only, not optimizer state.
+The YAML paths beginning with checkpoints/ resolve from the ablations folder.
+
+Create the checkpoints folder and place the two files there before running
+these configurations. With --all, add --include-continuations to include them;
+otherwise the four configurations are skipped. Native runs and fresh matched
+runs require no external pretrained weights. Matched-run resume checkpoints
+use a separate format and cannot replace these PG-NODE initial states.

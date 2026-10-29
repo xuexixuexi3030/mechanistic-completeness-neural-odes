@@ -1,0 +1,72 @@
+PROJECT FILE GUIDE
+
+The project compares PINNs, Neural ODEs, MC-NODE, PG-NODE and MA-NODE on
+gene-regulatory and eco-epidemic systems. Paths are relative to the package root.
+
+ROOT FILES
+README.md: release contents, installation and training commands.
+requirements.txt: Python package dependencies.
+EXTERNAL_WEIGHTS.txt: required initial checkpoints and their uses.
+TRAINING_SUPPLEMENT.txt: experiment coverage and reproduction limitations.
+CODE_OVERVIEW.txt: this file guide.
+results/README.md: manuscript-to-result file map and metric definitions.
+results/: final metrics, aggregate comparisons and sensitivity outputs.
+
+NATIVE BENCHMARK AND ABLATIONS
+The following paths occur under both native/ and ablations/. Their roles are
+shared, but the two implementations and their configurations remain separate.
+
+train.py: command-line entry point for one configuration or a complete suite.
+configs/*.yaml: system, model, noise, seed, loss and optimizer settings for
+each named experiment. Native names identify model/system/noise; ablation
+names identify the tested component or control. The refine configurations
+require the initial weights listed in EXTERNAL_WEIGHTS.txt.
+scripts/run_experiment.py: constructs the experiment, loads optional initial
+weights, runs training, evaluates the model and saves outputs.
+src/config.py: configuration definitions, YAML loading and overrides.
+
+src/models/pinn.py: time-to-state PINN baseline.
+src/models/neural_ode.py: neural vector field and ODE integration baseline.
+src/models/mode_a.py: MC-NODE mechanism completion.
+src/models/mode_b.py: PG-NODE physics-guided neural dynamics.
+src/models/mode_c.py: MA-NODE mechanistic dynamics with neural correction.
+src/models/networks.py: reusable network layers and transformations.
+
+src/systems/base.py: common dynamical-system interface and integration.
+src/systems/gene_regulatory.py: gene-regulatory equations and parameters.
+src/systems/eco_epidemic.py: eco-epidemic equations and parameters.
+
+src/training/trainer.py: training loops, objective assembly and checkpoints.
+src/training/optimizer.py: Adam/L-BFGS stages and parameter-update schedules.
+src/training/losses.py: data, physics, initial-condition and regularization losses.
+src/training/loss_balancing.py: loss balancing and weight updates.
+src/evaluation/metrics.py: trajectory, physical-residual and parameter errors.
+src/evaluation/profiler.py: run timing and memory measurements.
+
+src/utils/data.py: synthetic observations, sampling, noise and data splits.
+src/utils/device.py: CPU/CUDA selection.
+src/utils/seed.py: random-seed setup.
+src/utils/logging.py: saves configurations, measurements and new-run outputs.
+src/utils/visualization.py: trajectory and training plots for new runs.
+__init__.py files: package setup, exports and model/system registries.
+
+MATCHED CONTROLS
+matched/train.py: selects the seed implementation and requested comparison cases.
+Each matched/seed_1031/, matched/seed_70595/ and matched/seed_250333/ contains:
+
+protocol.py: shared settings, configuration generation and validation.
+matched_models.py: model adapters for completeness and guidance comparisons.
+data_protocol.py: observation generation, scaling and comparison losses.
+train_one.py: trains one case, handles checkpoints/resume and evaluates results.
+vendor/src/config.py: supporting configuration definitions.
+vendor/src/models/{mode_a,mode_b,mode_c,neural_ode,networks}.py: local model and
+network implementations used by the matched adapters.
+vendor/src/systems/{base,gene_regulatory,eco_epidemic}.py: system interface and
+the two benchmark equations.
+vendor/src/utils/data.py: supporting data-generation functions.
+vendor/**/__init__.py: package setup and exports.
+
+The three seed folders preserve their respective implementations. New weights,
+logs and metrics are written to the selected output directory during training.
+The root results/ folder separately contains the archived final numerical
+evidence used in the manuscript.

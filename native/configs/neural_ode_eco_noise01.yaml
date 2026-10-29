@@ -1,0 +1,155 @@
+device: cuda
+experiment_name: neural_ode_eco_noise01
+model:
+  activation: tanh
+  correction_scale: 0.1
+  hidden_layers: 4
+  hidden_units: 50
+  init_method: glorot_normal
+  mode: node
+  mode_a_constrain_unknown: false
+  mode_a_normalize_inputs: false
+  mode_a_state_scales: []
+  mode_a_use_correction: true
+  mode_b_neighborhood_samples: 0
+  mode_b_neighborhood_scale: 0.0
+  mode_b_normalize_inputs: false
+  mode_b_output_scales: []
+  mode_b_state_scales: []
+  mode_c_bound_correction: true
+  mode_c_use_correction: true
+  mode_c_use_physics: true
+  node_hidden_layers: 3
+  node_hidden_units: 64
+  node_normalize_inputs: true
+  node_output_scales:
+  - 45.0
+  - 20.0
+  - 30.0
+  - 1.0
+  node_state_scales:
+  - 1000.0
+  - 300.0
+  - 900.0
+  - 1000.0
+  ode_atol: 1.0e-06
+  ode_rtol: 0.0001
+  ode_solver: rk4
+  ode_step_size: 1.0
+  pinn_output_transform: ''
+  pinn_state_scales: []
+  positive_output: true
+  use_adjoint: false
+output_dir: results
+system:
+  data_path: ''
+  data_source: synthetic
+  initial_conditions: []
+  name: eco_epidemic
+  noise_mode: relative_state_std
+  noise_std: 0.01
+  num_test_points: 120
+  num_train_points: 10
+  param_init: {}
+  preserve_initial_observation: true
+  split_strategy: uniform
+  state_columns: []
+  t_span:
+  - 0.0
+  - 200.0
+  time_column: time
+  true_params: {}
+training:
+  adam_amsgrad: true
+  adam_beta1: 0.9
+  adam_beta2: 0.9997
+  adam_decay_start: 24000
+  adam_epochs: 35000
+  adam_eps: 1.0e-08
+  adam_final_lr: 1.0e-07
+  adam_lr: 1.25e-05
+  alternating_network_steps: 0
+  alternating_physics_steps: 0
+  alternating_update_start: 0
+  balancing_strategy: fixed
+  checkpoint_every: 2500
+  component_loss: true
+  data_component_max_weight: 0.04
+  data_component_weights:
+  - 0.9
+  - 1.3
+  - 1.2
+  - 0.6
+  data_normalization_floor: 1.0
+  early_stopping_min_relative_improvement: 0.0
+  early_stopping_patience: 0
+  early_stopping_start_epoch: 0
+  ema_decay: 0.9995
+  ema_max_loss_ratio: 1.015
+  ema_start_epoch: 13000
+  ema_use_for_final: false
+  gradient_clip_norm: 0.32
+  gradnorm_alpha: 1.5
+  init_checkpoint: ''
+  lambda_correction: 0.0
+  lambda_data: 1.0
+  lambda_gamma: 0.0
+  lambda_ic: 10.0
+  lambda_physics: 0.0
+  lambda_physics_data: 0.0
+  lambda_reg: 0.0
+  lbfgs_epochs: 0
+  lbfgs_lr: 1.0
+  lbfgs_max_iter: 5
+  log_every: 10
+  loss_backtrack_end_epoch: 0
+  loss_backtrack_factor: 0.5
+  loss_backtrack_max_steps: 0
+  loss_backtrack_rejection_lr_factor: 0.5
+  loss_backtrack_start_epoch: 0
+  loss_backtrack_trigger_ratio: 1.5
+  loss_type: normalized_mse
+  lr_stage_transition_epochs: 1800
+  lr_stages:
+  - network_factor: 0.9
+    physics_factor: 1.0
+    start: 5000
+  - network_factor: 0.72
+    physics_factor: 1.0
+    start: 10000
+  - network_factor: 0.52
+    physics_factor: 1.0
+    start: 16000
+  - network_factor: 0.32
+    physics_factor: 1.0
+    start: 22000
+  - network_factor: 0.15
+    physics_factor: 1.0
+    start: 28000
+  max_network_update_norm: 0.0005
+  max_physics_update_norm: 0.0
+  normalize_physics_loss: true
+  num_collocation: 200
+  ode_window_epochs: 0
+  ode_window_points: 0
+  ode_window_strategy: growing_prefix
+  ode_windows_per_epoch: 1
+  parameter_refine_network_lr_factor: 1.0
+  parameter_refine_physics_lr_factor: 1.0
+  parameter_refine_start: 0
+  phys_lr: 6.25e-06
+  phys_lr_overrides: {}
+  physics_data_derivative_method: midpoint
+  physics_ramp_epochs: 0
+  physics_ramp_power: 1.0
+  physics_ramp_schedule: linear
+  physics_warmup_epochs: 0
+  pinn_adaptive_collocation: false
+  pinn_adaptive_fraction: 0.0
+  pinn_candidate_multiplier: 4
+  pinn_resample_every: 500
+  seed: 42
+  softadapt_tau: 0.1
+  softadapt_window: 5
+  target_loss: 0.0
+  target_loss_patience: 1

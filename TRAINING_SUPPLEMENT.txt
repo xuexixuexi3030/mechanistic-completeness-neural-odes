@@ -1,0 +1,34 @@
+TRAINING AND REPRODUCTION NOTES
+
+Experiment coverage
+- Native: 40 configurations across five seeds (42, 123, 2024, 3407, 7777),
+  giving 200 runs; observation noise levels are 0%, 1%, 6% and 10%.
+- Ablations: 59 seed-42 configurations, including 55 without an initial
+  checkpoint and four PG-NODE continuations described in EXTERNAL_WEIGHTS.txt.
+- Matched controls: 72 configurations per seed (1031, 70595, 250333), giving
+  216 runs across two systems, three model labels, two completeness levels,
+  two guidance settings and three noise levels (0%, 1%, 6%). MC and MA labels
+  in this suite are not independent replicates.
+
+Settings that affect reproduction
+Keep each suite's implementation and settings together. Native and ablation
+configuration, data and evaluation behavior differ; matched controls retain
+their seed-specific implementations. Use the supplied YAML files or matched
+protocol.py files for initializations, loss weights and training budgets.
+
+For seed 250333, twelve eco full-RHS forward variants involve resumed training
+whose earlier-stage source provenance is incomplete. The supplied code retains
+the available implementation; a fresh run is not a verified reconstruction of
+those twelve archived results.
+
+This release includes final experiment metrics and aggregate results under
+results/. Old checkpoints and individual training logs are excluded. Training
+creates new outputs. Sensitivity outputs are provided, while sensitivity
+analysis and manuscript figure-assembly scripts are outside the code release.
+
+Validation scope
+All 115 Python files passed syntax checks, all 99 YAML configurations loaded
+and built models, and all 216 generated matched configurations were checked
+against archived settings. Thirty-four paired CPU single-step checks matched
+the original code's weights and numerical outputs. This does not constitute
+full-budget retraining of all 475 archived runs.
